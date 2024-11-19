@@ -8,7 +8,7 @@ int main(){
 	printf("Hieu Cua 2 So La %d \n", hieu);
 	int tich = number_1 * number_2;
 	printf("Tich Cua 2 So La %d \n", tich);
-	int thuong = number_2 / number_1;
-	printf("Thuong Cua 2 So La %d \n", thuong);
+	float thuong = number_2 / number_1;
+	printf("Thuong Cua 2 So La %.2f \n", thuong);
 return 0;
 }
