@@ -2,7 +2,7 @@
 void nhapMang(int arr[], int* n){
     printf("Nhap So Phan Tu Can Nhap: ");
     scanf("%d", n);
-    for (int i = 0; i < *n; i++){
+    for (int i = 0; i < n; i++){
         printf("Nhap Gia Tri Phan Tu arr[%d]: ", i);
         scanf("%d", &arr[i]);
     }
@@ -18,7 +18,7 @@ void inMang(int arr[], int n){
 
 void themPhanTu(int arr[], int* n, int viTri, int giaTri){
     if (*n < 100){
-        for (int i = *n; i > viTri; i--){
+        for (int i = n; i > viTri; i--){
             arr[i] = arr[i - 1];
         }
         arr[viTri] = giaTri;
