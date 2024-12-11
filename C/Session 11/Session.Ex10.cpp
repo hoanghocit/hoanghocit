@@ -2,7 +2,7 @@
 void nhapMang(int arr[], int* n){
     printf("Nhap So Phan Tu Can Nhap: ");
     scanf("%d", n);
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < *n; i++){
         printf("Nhap Gia Tri Phan Tu arr[%d]: ", i);
         scanf("%d", &arr[i]);
     }
@@ -18,7 +18,7 @@ void inMang(int arr[], int n){
 
 void themPhanTu(int arr[], int* n, int viTri, int giaTri){
     if (*n < 100){
-        for (int i = n; i > viTri; i--){
+        for (int i = *n; i > viTri; i--){
             arr[i] = arr[i - 1];
         }
         arr[viTri] = giaTri;
@@ -105,7 +105,7 @@ void hienThiMenu(){
     printf("\nMENU\n");
     printf("1. Nhap So Phan Tu Can Nhap Va Gia Tri Cac Phan Tu\n");
     printf("2. In Ra Gia Tri Cac Phan Tu Dang Quan Ly\n");
-    printf("3. Them Mot Phan Tu Vao Vi Tri Chi Din\n");
+    printf("3. Them Mot Phan Tu Vao Vi Tri Chi Dinh\n");
     printf("4. Sua Mot Phan Tu O Vi Tri Chi Dinh\n");
     printf("5. Xoa Mot Phan Tu O Vi Tri Chi Dinh\n");
     printf("6. Sap Xep Cac Phan Tu\n");
