@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST" action="https://hul.io.vn">
+        <table>
+        <tr>
+        <td><label for="name">Họ Và Tên:</label></td>
+        <td><input type="text" id="name" name="name"/></td>
+        </tr>
+        <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email"/></td>
+        </tr>
+        <tr>
+        <td><label for="ngaysinh">Ngày Sinh:</label></td>
+        <td><input type="date" id="ngaysinh" name="ngaysinh"/></td>
+        </tr>
+        <tr>
+        <td><label>Giới Tính:</label></td>
+        <td>
+        <input type="radio" id="nam" name="gioitinh" value="Nam"/>
+        <label for="nam">Nam</label>
+        <input type="radio" id="nu" name="gioitinh" value="Nữ"/>
+        <label for="nu">Nữ</label>
+        </td>
+        </tr>
+        <tr>
+        <td><label for="phone">Số Điện Thoại:</label></td>
+        <td><input type="text" id="phone" name="phone"/></td>
+        </tr>
+        <tr>
+        <td><label for="chuyennganh">Chuyên Ngành:</label></td>
+        <td><input type="text" id="chuyennganh" name="chuyennganh"/></td>
+        </tr>
+        <tr>
+        <td><label for="gpa">Điểm GPA:</label></td>
+        <td><input type="text" id="gpa" name="gpa"/></td>
+        </tr>
+        <tr>
+        <td><label for="lop">Lớp Học:</label></td>
+        <td>
+        <select id="lop" name="lop">
+            <option value="Lop 1">Lớp 1</option>
+            <option value="Lop 2">Lớp 2</option>
+        </select>
+        </td>
+        </tr>
+        <tr>
+        <td><button type="submit">Gửi Thông Tin</button>
+        </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

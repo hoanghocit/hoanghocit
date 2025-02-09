@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST" action="https://hul.io.vn">
+        <label for="name">Họ Và Tên:</label>
+        <input type="text" id="name" name="name"/><br>
+        <label for="date">Chọn Ngày Giờ:</label>
+        <input type="datetime-local" id="date" name="date"/><br>
+        <label for="dichvu">Loại Dịch Vụ:</label>
+        <select id="dichvu" name="dichvu">
+            <option value="TuVan">Tư Vấn</option>
+            <option value="Khac">Khác</option>
+        </select><br>
+        <label for="ghichu">Ghi Chú:</label>
+        <textarea id="ghichu" name="ghichu" rows="4"></textarea><br>
+        <button type="submit">Đặt Lịch</button>
+    </form>
+</body>
+</html>
