@@ -1,0 +1,42 @@
+h1 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {  
+    font-family: monospace;
+}
+code {
+    background-color: #dadada;
+    color: #cc0000;
+}
+.center {
+    text-align: center;
+    border: solid green;
+    padding: 10px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.example {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.code-block {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    border-left: solid #28a745;
+}
+.btn {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

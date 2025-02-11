@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.description {
+    font-style: italic;
+    text-decoration: underline;
+    color: lightgreen;
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,24 @@
+body {
+    background-color: #ddd;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th {
+    background-color: #007bff;
+    text-transform: uppercase;
+}
+td, th {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
